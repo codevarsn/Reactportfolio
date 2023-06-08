@@ -18,12 +18,12 @@ function ContactSection() {
       <div className="contacto">
         <div className="iconos">
           <div className="" onClick={handleWhatsAppClick}>
-            <img className='contacImg' src="./src/icons/whatsapp.svg" alt="whatsapp" />
+            <img className='contacImg' src="./src/icons/whatsapp.png" alt="whatsapp" />
             <h4>WhatsApp</h4>
             <p>+573232920011</p>
           </div>
           <div onClick={handleMailClick}>
-            <img className='contacImg' src="./src/icons/mail.svg" alt="mail" />
+            <img className='contacImg' src="./src/icons/mail.png" alt="mail" />
             <div>
             <h4>Email</h4>
             <p>mariano5623@gmail.com</p>
