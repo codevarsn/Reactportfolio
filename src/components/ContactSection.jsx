@@ -1,5 +1,7 @@
 import React from 'react';
 import '../App.css';
+import whatsapp from '../icons/whatsapp.png'
+import mail from '../icons/mail.png'
 
 function ContactSection() {
   const handleWhatsAppClick = () => {
@@ -18,12 +20,12 @@ function ContactSection() {
       <div className="contacto">
         <div className="iconos">
           <div className="" onClick={handleWhatsAppClick}>
-            <img className='contacImg' src="../icons/whatsapp.png" alt="whatsapp" />
+            <img className='contacImg' src={whatsapp} alt="whatsapp" />
             <h4>WhatsApp</h4>
             <p>+573232920011</p>
           </div>
           <div onClick={handleMailClick}>
-            <img className='contacImg' src="../icons/mail.png" alt="mail" />
+            <img className='contacImg' src={mail} alt="mail" />
             <div>
             <h4>Email</h4>
             <p>mariano5623@gmail.com</p>
