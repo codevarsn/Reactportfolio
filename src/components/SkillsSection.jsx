@@ -42,4 +42,3 @@ function SkillsSection() {
 }
 
 export default SkillsSection;
-export default SkillsSection;
