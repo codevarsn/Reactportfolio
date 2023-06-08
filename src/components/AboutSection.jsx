@@ -1,5 +1,5 @@
 import React from "react";
-import '../app.css';
+import '../App.css';
 
 const AboutSection = () => {
   const handleLinkedInClick = () => {
@@ -10,9 +10,6 @@ const AboutSection = () => {
     window.open("https://github.com/codevarsn", "_blank");
   };
 
-  const handleNetlifyClick = () => {
-    window.open("https://app.netlify.com/teams/codevarsn/sites", "_blank");
-  };
 
   return (
     <section>

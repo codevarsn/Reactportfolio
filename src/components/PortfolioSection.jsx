@@ -1,5 +1,5 @@
 import React from 'react';
-import '../app.css';
+import '../App.css';
 
 const handleproyect = () => {
   window.open('https://steady-starlight-a7db64.netlify.app', "_blank");
