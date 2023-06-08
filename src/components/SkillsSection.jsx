@@ -1,8 +1,11 @@
 import React from 'react';
 import '../App.css'
-
-
-
+import html from '../icons/html.png';
+import css from '../icons/css.png';
+import javascript from '../icons/javascript.png';
+import react from '../icons/react.png';
+import node from '../icons/node.png';
+import postgresql from '../icons/postgresql.png';
 
 function SkillsSection() {
   return (
@@ -10,27 +13,27 @@ function SkillsSection() {
       <h2>Mis habilidades</h2>
       <ul className="container">
         <li className="service">
-          <img className="size" src="../icons/html.png" alt="html" />
+          <img className="size" src={html} alt="html" />
           <span>HTML</span>
         </li>
         <li className="service">
-          <img className="size" src="../icons/css.png" alt="css" />
+          <img className="size" src={css} alt="css" />
           <span>CSS</span>
         </li>
         <li className="service">
-          <img className="size" src="../icons/react.png" alt="reactjs" />
+          <img className="size" src={react} alt="reactjs" />
           <span>ReactJs</span>
         </li>
         <li className="service">
-          <img className="size" src="../icons/javascript.png" alt="javascript" />
+          <img className="size" src={javascript} alt="javascript" />
           <span>Javascript</span>
         </li>
         <li className="service">
-        <img className="size" src="../icons/node.png" alt="nodejs" />
+          <img className="size" src={node} alt="nodejs" />
           <span>NodeJs</span>
         </li>
         <li className="service">
-        <img className="size" src="../icons/postgreSQL.png" alt="postgreSQL" />
+          <img className="size" src={postgresql} alt="postgreSQL" />
           <span>PostgreSQL</span>
         </li>
       </ul>
@@ -38,4 +41,5 @@ function SkillsSection() {
   );
 }
 
+export default SkillsSection;
 export default SkillsSection;
