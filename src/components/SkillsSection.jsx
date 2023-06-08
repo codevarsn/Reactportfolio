@@ -25,6 +25,10 @@ function SkillsSection() {
         <img className="size" src="./src/icons/node.svg" alt="nodejs" />
           <span>NodeJs</span>
         </li>
+        <li className="service">
+        <img className="size" src="./src/icons/postgreSQL.svg" alt="postgreSQL" />
+          <span>PostgreSQL</span>
+        </li>
       </ul>
     </section>
   );
