@@ -19,10 +19,10 @@ const AboutSection = () => {
       </p>
       <ul className="iconos icAbout">
         <li className="icon" onClick={handleLinkedInClick}>
-          <img src="./src/icons/linkedin.png" alt="linkedin" />
+          <img src="../icons/linkedin.png" alt="linkedin" />
         </li>
         <li className="icon" onClick={handleGithubClick}>
-          <img src="./src/icons/github.png" alt="github" />
+          <img src="../icons/github.png" alt="github" />
         </li>
       </ul>
     </section>
