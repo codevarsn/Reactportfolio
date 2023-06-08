@@ -1,5 +1,7 @@
 import React from "react";
 import '../App.css';
+import linkedin from '../icons/linkedin.png'
+import github from '../icons/github.png'
 
 const AboutSection = () => {
   const handleLinkedInClick = () => {
@@ -19,10 +21,10 @@ const AboutSection = () => {
       </p>
       <ul className="iconos icAbout">
         <li className="icon" onClick={handleLinkedInClick}>
-          <img src="../icons/linkedin.png" alt="linkedin" />
+          <img src={linkedin} alt="linkedin" />
         </li>
         <li className="icon" onClick={handleGithubClick}>
-          <img src="../icons/github.png" alt="github" />
+          <img src={github} alt="github" />
         </li>
       </ul>
     </section>
