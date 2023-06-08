@@ -1,5 +1,5 @@
 import React from 'react';
-import Alexander from '../img/alexander.png'
+import Alexander from '../img/Alexander.png'
 
 function Header() {
   return (
