@@ -19,7 +19,7 @@ function ContactSection() {
       <h2>Contacto</h2>
       <div className="contacto">
         <div className="iconos">
-          <div className="" onClick={handleWhatsAppClick}>
+          <div className="contacImg" onClick={handleWhatsAppClick}>
             <img className='contacImg' src={whatsapp} alt="whatsapp" />
             <h4>WhatsApp</h4>
             <p>+573232920011</p>
